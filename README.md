@@ -1,2 +1,102 @@
 PythonLectureNotes
 ==================
+
+history
+
+compiled & interpreted
+
+process of compilation: 
+	tokenisation
+	syntax analysis
+	sementic analysis
+	intermidate code generation - does code optization
+	
+
+python follows reference model.
+
+c follows value model.
+
+Datatypes:
+	Number:
+		integer - 
+		decimal - 
+		complex - 
+		-> arithmatic operator:
+			** power
+			// floor division
+			+ 
+			- 
+			*
+			/
+			%
+		-> relational operator:
+			>
+			< 
+			>=
+			<=
+			==
+			<> - not equal to in 2.7
+			!= - not equal to in 3.4
+		-> logical operator:
+			or - a or b
+			and - a and b
+		-> identity operator:- Compare two object's ID.
+			is
+			is not
+		-> membership operation:
+			in
+			not in
+			Example:
+				>>> a = 5
+				>>> b = 5
+				>>> a is b
+				True
+				>>> id(a) is id(b)
+				False
+				>>> id(a) == id(b)
+				True
+				>>> id(a) == id(b)
+			is - compare value
+			== compare id
+		-> bitwise operator
+			&	- bitwise and operator - turn on
+			|	- bitwise or operator - turn off
+			^	- bitwise - toggle
+			~	- compliment - exactly opposite
+			>> - right shift: Perform division by 2x power
+				Arithmatic right shift
+					1 will get added
+				Logical right shift
+					0 will get added
+			<< - left shift:  Perform multiplication by 2x power
+				
+	
+	funcations in python:
+		reusability
+		modular
+		
+	standard methods:
+		type
+		input - scanf for anything other than string
+		raw_input - scanf for only string
+		eval(raw_input) - same as int
+
+	bit operations:
+		number = number & (number -1) -> this removes the right most 1 bit
+    
+        default argument:
+            def new_fun(input_string, x, y = 100):
+                                            ||
+                        This is a default agrument
+                        if we pass only 2 input to function then the function will use y = 10
+                        if we pass 3 params to function then the function will use the value that is passed to function
+        
+        keyword argument:
+            def new_fun(input, x, y)
+                we can call this function using:
+                    new_fun(x = 100, y = 200, input="string")
+
+                
+        HOMEWORK:- 4th Oct 2014
+            - WAP which will find all such numbers which are divisible by 7 and are not multiple of 5 between 1000 to 2500
+            - WAP to find a factorial of a given number     
