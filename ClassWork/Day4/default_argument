@@ -1,0 +1,26 @@
+#!/usr/bin/python
+
+def convert_to_upper(string):
+    ''' returns string converting it into upper case'''
+    return str.upper(string)
+f1 = convert_to_upper
+
+def convert_to_upper(string , y=10):
+    '''
+    Here y = 10 is default argument to the function
+    If we call this function using just one argument then this function will consider y as 10
+    But if we call this function with two arguments then the 2nd value passed to the function will be treated as the value for y
+    '''
+    return str.upper(string + str(y))
+f2 = convert_to_upper
+
+def convert_to_lower(string):
+    ''' returns string converting it into lower case'''
+    return str.lower(string)
+
+if __name__=='__main__':
+    string = raw_input("Enter the string: ");
+    print("String in upper case: " + convert_to_upper(string))
+    print("String in lower case: " + convert_to_lower(string))
+    print(f1(string))
+    print(f2(string))
