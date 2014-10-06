@@ -98,30 +98,24 @@ Datatypes:
             - WAP which will find all such numbers which are divisible by 7 and are not multiple of 5 between 1000 to 2500
             - WAP to find a factorial of a given number
              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+String slicing:
+    - s = "hello"
+    - s[x:y:z] :- x is start-index/inclusive & y is end-index/exclusive & z is step value(default step value is 1 and if -1 is given then the list will be sorted)
+    - start-index should always be less than end-index if both positive or negative.
+    - start-index should come before end index
+    -
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+HW:
+    WAP to implement stack using list - LIFO
+        isFull
+        isEmpty
+        push
+        pop
+        peep - view top
         
+
+    WAP to implement queue using list - FIFO
+
+     
