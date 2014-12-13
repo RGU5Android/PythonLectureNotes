@@ -1,0 +1,22 @@
+There are two types of exception in python - BaseException & Exception
+All user defined exceptions must inhert from Exception class
+
+BaseException
+
+
+
+Exception:- 
+    |- Exception
+        |-  SystemExist
+        |-  KeyBoardInterupt
+        |-  GeneratorExit
+        |-  Exception
+
+
+Syntax:
+    try:
+        // insert your code here...
+    except Exception:
+        // insert your code here...
+    eles:
+        // else will execute iff there is NO exception
