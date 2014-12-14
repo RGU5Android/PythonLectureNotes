@@ -8,6 +8,5 @@ DeleteReport method
 """
 
 def add_report(self, report, index):
-    if(index == 1):
-        report = 
+
 
