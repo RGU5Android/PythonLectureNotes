@@ -1,0 +1,97 @@
+start
+empid = 1
+empname = Rahul
+empSalary = 30
+empDesignation = Android Developer
+end
+
+start
+empid = 2
+empname = Abhishek
+empSalary = 30
+empDesignation = Android Developer
+end
+
+start
+empid = 3
+empname = Zakariya
+empSalary = 30
+empDesignation = Android Developer
+end
+
+start
+empid = 4
+empname = Uppalwar
+empSalary = 30
+empDesignation = Ubuntu
+end
+
+start
+empid = 5
+empname = Shah
+empSalary = 30
+empDesignation = Shell Developer
+end
+
+start
+empid = 6
+empname = Baduda
+empSalary = 30
+empDesignation = UI
+end
+
+start
+empid = 7
+empname = Parag
+empSalary = 30
+empDesignation = QA
+end
+
+start
+empid = 8
+empname = Deshpande
+empSalary = 30
+empDesignation = QA
+end
+
+start
+empid = 9
+empname = ABC
+empSalary = 30
+empDesignation = Android Developer
+end
+
+start
+empid = 10
+empname = DEF
+empSalary = 30
+empDesignation = Python Developer
+end
+
+start
+empid = 11
+empname = HIJ
+empSalary = 30
+empDesignation = iOS Developer
+end
+
+start
+empid = 12
+empname = KLM
+empSalary = 30
+empDesignation = Java Developer
+end
+
+start
+empid = 13
+empname = NOP
+empSalary = 30
+empDesignation = iOS Developer
+end
+
+start
+empid = 14
+empname = QRS
+empSalary = 30
+empDesignation = Java Developer
+end
